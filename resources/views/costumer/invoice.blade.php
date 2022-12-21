@@ -111,7 +111,7 @@
                     <table>
                         <tr>
                             <td class="title">
-                                <img src="https://daengweb.id/front/dw-theme/images/logo-head.png" width="150px">
+                                <img src="{{ asset('assets/img/logoapiks.png') }}" width="150px">
                             </td>
 
                             <td>

@@ -97,19 +97,19 @@
         <table class="order-rable">
           <tr>
             <td>Street</td>
-            <td>: 56/8 panthapath</td>
+            <td>: Apartment Tanglin & Orchard Pakuwon</td>
           </tr>
           <tr>
             <td>City</td>
-            <td>: Dhaka</td>
+            <td>: Surabaya</td>
           </tr>
           <tr>
             <td>Country</td>
-            <td>: Bangladesh</td>
+            <td>: Indonesia</td>
           </tr>
           <tr>
             <td>Postcode</td>
-            <td>: 1205</td>
+            <td>: 60216</td>
           </tr>
         </table>
       </div>

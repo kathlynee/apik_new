@@ -89,8 +89,8 @@
                     <div class="media contact-info">
                         <span class="contact-info__icon"><i class="ti-headphone"></i></span>
                         <div class="media-body">
-                            <h3><a href="tel:454545654">00 (440) 9865 562</a></h3>
-                            <p>Mon to Fri 9am to 6pm</p>
+                            <h3 ><a href="https://wa.me/62628113568277?text=Hello%20i'm'%20interest%20to%20buy%20your%20product" style="color: white">+62 811-3568-277</a></h3>
+                            <p>want to know more?</p>
                         </div>
                     </div>
                     <div class="media contact-info">

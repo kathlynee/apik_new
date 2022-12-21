@@ -139,7 +139,12 @@
                         <div class="single-footer-widget tp_widgets">
                             <h4 class="footer_title">Contact Us</h4>
                             <div class="ml-40">
-
+                                <div class="media contact-info">
+                                    <div class="media-body">
+                                        <h3 class="text-white"><a href="https://wa.me/62628113568277?text=Hello%20i'm'%20interest%20to%20buy%20your%20product" class="text-white">+62 811-3568-277</a></h3>
+                                        <h3 class="text-white"><a href="https://instagram.com/apikproducts?igshid=OGQ2MjdiOTE=" class="text-white">@apik.products</a></h3>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
