@@ -35,14 +35,7 @@ class OrderController extends Controller
             return $q['qty'] * $q['cart_weight'];
         });
 
-        // foreach ($cart as $row) {
-        //     $cost = RajaOngkir::ongkosKirim([
-        //         'origin'       => 252,
-        //         'destination'  => $row->customer->city_id,
-        //         'weight'       => $weight,
-        //         'courier'      => 'jne',
-        //     ])->get();
-        // }
+       
 
         return view('costumer.order', compact('cart', 'order', 'subtotal', 'weight', 'order_detail'));
     }
@@ -62,7 +55,7 @@ class OrderController extends Controller
 
         foreach ($cart as $row) {
             $cost = RajaOngkir::ongkosKirim([
-                'origin'       => 252,
+                'origin'       => 444,
                 'destination'  => $row->customer->citie_id,
                 'weight'       => $weight,
                 'courier'      => 'jne',

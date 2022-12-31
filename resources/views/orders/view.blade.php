@@ -37,7 +37,7 @@
                                     <div class="input-group-append">
                                         <button class="btn btn-secondary" type="submit">Filter</button>
                                     </div>
-                                    <a target="_blank" class="btn btn-primary ml-2" id="exportpdf">Export PDF</a>
+                                    {{-- <a target="_blank" class="btn btn-primary ml-2" id="exportpdf">Export PDF</a> --}}
                                 </div>
                             </form>
                             <div class="table-responsive">

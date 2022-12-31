@@ -36,10 +36,10 @@
         <!--================ Hero banner start =================-->
 
         <!--================ Hero Carousel start =================-->
-        <section class="section-margin mt-0">
+        {{-- <section class="section-margin mt-0">
             <div class="owl-carousel owl-theme hero-carousel">
                 <div class="hero-carousel__slide">
-                    <img src="img/home/hero-slide1.png" alt="" class="img-fluid">
+                    <img src="{{ asset('assets/img/home/hero_banner1.jpg') }}" alt="" class="img-fluid">
                     <a href="#" class="hero-carousel__slideOverlay">
                         <h3>Wireless Headphone</h3>
                         <p>Accessories Item</p>
@@ -60,15 +60,15 @@
                     </a>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!--================ Hero Carousel end =================-->
 
         <!-- ================ trending product section start ================= -->
         <section class="section-margin calc-60px">
             <div class="container">
                 <div class="section-intro pb-60px">
-                    <p>Tampil trendi dengan produk terbaru kami.</p>
-                    <h2>Produk <span class="section-intro__style">Terbaru</span></h2>
+                    <p>look more fabulous with our product!</p>
+                    <h2>New <span class="section-intro__style">Product</span></h2>
                 </div>
                 <div class="row">
 
@@ -79,10 +79,8 @@
                                     <img class="card-img" src="{{ asset('storage/products/' . $row->image) }}"
                                         alt="{{ $row->name }}">
                                     <ul class="card-product__imgOverlay">
-                                        <li><button><i class="ti-search"></i></button></li>
                                         <li><a href="{{ url('/product/' . $row->slug) }}"><button><i
                                                         class="ti-shopping-cart"></i></button></a></li>
-                                        <li><button><i class="ti-heart"></i></button></li>
                                     </ul>
                                 </div>
                                 <div class="card-body">

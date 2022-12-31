@@ -3,22 +3,12 @@
 namespace App\Http\Controllers\Ecommerce;
 
 use App\Http\Controllers\Controller;
-use App\Http\Middleware\Costumer;
 use Illuminate\Http\Request;
-use App\Models\Product;
-use App\Models\Customer;
 use App\Models\Cart;
 use App\Models\Citie;
 use Illuminate\Support\Facades\Auth;
-use Illuminate\Support\Str;
-use Laravel\Ui\Presets\React;
 use App\Models\Province;
-use App\Models\City;
-use App\Models\District;
-use Illuminate\Support\Facades\DB;
 use App\Models\Courier;
-use App\Models\Order;
-use App\Models\OrderDetail;
 use Kavist\RajaOngkir\Facades\RajaOngkir;
 
 class CartController extends Controller
@@ -55,7 +45,7 @@ class CartController extends Controller
 
         foreach ($cart as $row) {
             $cost = RajaOngkir::ongkosKirim([
-                'origin'       => 252,
+                'origin'       => 444,
                 'destination'  => $row->customer->city_id,
                 'weight'       => $weight,
                 'courier'      => 'jne',
@@ -88,26 +78,6 @@ class CartController extends Controller
     {
         $cities = Citie::where('province_id', $id)->pluck('name', 'id');
         response()->json($cities);
-    }
-
-    /*
-    public function getDistrict()
-    {
-        $districts = District::where('city_id', request()->city_id)->get();
-        return response()->json(['status' => 'success', 'data' => $districts]);
-    }
-    */
-
-
-    public function check_ongkir(Request $request){
-        $cost = RajaOngkir::ongkosKirim([
-            'origin'       => $request->city_origin,
-            'destination'  => $request->city_destination,
-            'weight'       => $request->weight,
-            'courier'      => $request->courier,
-        ])->get();
-
-        return response()->json($cost);
     }
 
     public function addToCart(Request $request){

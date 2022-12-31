@@ -80,7 +80,8 @@
                                 </li>
                     </div>
                 @else
-                    <li class="nav-item"><button><i class="ti-list"></i></button></li>
+                    <li class="nav-item"><button><i class="ti-list"></i></button>
+                    </li>
                     <li class="nav-item"><button><i class="ti-shopping-cart"></i></a></span></button>
                     </li>
                     <li class="nav-item"><a class="button button-header" href="{{ route('costumer.login') }}">Login</a>
@@ -110,7 +111,8 @@
                                 Empowering women especially mothers from low economic families.
                             </p>
                             <p class=" text-white">
-                                Through their passion and amazing talents at sewing we are able to offer them a good opportunity and help out their families financially.
+                                Through their passion and amazing talents at sewing we are able to offer them a good
+                                opportunity and help out their families financially.
                             </p>
                         </div>
                     </div>
@@ -141,8 +143,12 @@
                             <div class="ml-40">
                                 <div class="media contact-info">
                                     <div class="media-body">
-                                        <h3 class="text-white"><a href="https://wa.me/62628113568277?text=Hello%20i'm'%20interest%20to%20buy%20your%20product" class="text-white">+62 811-3568-277</a></h3>
-                                        <h3 class="text-white"><a href="https://instagram.com/apikproducts?igshid=OGQ2MjdiOTE=" class="text-white">@apik.products</a></h3>
+                                        <h3 class="text-white"><a
+                                                href="https://wa.me/62628113568277?text=Hello%20i'm'%20interest%20to%20buy%20your%20product"
+                                                class="text-white">+62 811-3568-277</a></h3>
+                                        <h3 class="text-white"><a
+                                                href="https://instagram.com/apikproducts?igshid=OGQ2MjdiOTE="
+                                                class="text-white">@apik.products</a></h3>
                                     </div>
                                 </div>
                             </div>

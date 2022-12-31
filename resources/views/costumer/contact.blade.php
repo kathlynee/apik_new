@@ -36,8 +36,8 @@
     <section class="section-margin--small">
         <div class="container">
             <div class="d-none d-sm-block mb-5 pb-4">
-                <div id="map" style="height: 420px;"></div>
-                <script>
+                {{-- <div id="map" style="height: 420px;"></div> --}}
+                {{-- <script>
                     function initMap() {
                         var uluru = {
                             lat: -25.363,
@@ -72,7 +72,7 @@
                     }
                 </script>
                 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&callback=initMap">
-                </script>
+                </script> --}}
 
             </div>
 
@@ -89,7 +89,8 @@
                     <div class="media contact-info">
                         <span class="contact-info__icon"><i class="ti-headphone"></i></span>
                         <div class="media-body">
-                            <h3 ><a href="https://wa.me/62628113568277?text=Hello%20i'm'%20interest%20to%20buy%20your%20product" style="color: white">+62 811-3568-277</a></h3>
+                            <h3><a href="https://wa.me/62628113568277?text=Hello%20i'm'%20interest%20to%20buy%20your%20product"
+                                    style="color: black">+62 811-3568-277</a></h3>
                             <p>want to know more?</p>
                         </div>
                     </div>
@@ -97,7 +98,7 @@
                         <span class="contact-info__icon"><i class="ti-email"></i></span>
                         <div class="media-body">
                             <h3><a href="mailto:apik.products@gmail.com"></a>apik.products@gmail.com</h3>
-                            <p>Send us your query anytime!</p>
+                            <p>Send us your question anytime!</p>
                         </div>
                     </div>
                 </div>

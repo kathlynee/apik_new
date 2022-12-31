@@ -111,7 +111,7 @@
                     <table>
                         <tr>
                             <td class="title">
-                                <img src="{{ asset('assets/img/logoapiks.png') }}" width="150px">
+                                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Ffree-icon%2Fprofile_1250689&psig=AOvVaw1cxwZzQPQH1ChQZ5QMG8Cb&ust=1671768895064000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOi98suujPwCFQAAAAAdAAAAABAD" width="150px">
                             </td>
 
                             <td>
